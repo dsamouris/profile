@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+body  {
+  background-color: #F7F9FC;
+  font-family: Montserrat, sans-serif;
+  color: #FFC72C;
+  font-size: 30px;
+  line-height: 110%
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 30px;
+  line-height: 110%
+ }
+
+h2 {
+ font-family: Roboto, sans-serif;
+ font-size: 20px;
+ line-height: 80%
+}
+
+p {
+  font-size: 20px;
+  line-height: 80%
+ }
+
+.blue-card {
+  background-color: #1D428A;
+  padding: 25px;
+  border: 2px solid #FFC72C;
+  text-align: center;
+  margin: 30px;
+  box-shadow: 9px 9px 2px 1px rgba(90, 90, 198, 0.2);
+}
+
+.btn-yellow {
+
+  text-decoration: none;
+  color: #1D428A ;
+  background-color: #FFC72C;
+  border: 3px solid #FFC72C;
+  padding: 3px;
+  border-radius: 8px
+}
+
+.btn-yellow:hover {
+  font-weight: bold;
+  background-color: #B6D3EF;
+  color: #1D428A;
+  font-weight: 900;
+  border-radius: 5;
+}
+
+.social-icon  {
+  font-size: 30px;
+  color: #FFC72C;
+}
+
+.social-icon:hover{
+  color: yellow;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 30 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.list-inline li {
+  display: inline-block;
+}
